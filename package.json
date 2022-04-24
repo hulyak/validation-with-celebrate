@@ -1,0 +1,20 @@
+{
+  "name": "celebrate",
+  "version": "1.0.0",
+  "description": "Imagine you have created a note-taking app with a login system where users can create an account and add their notes. Users need to type their email and name to sign in. Your job as a developer is to ensure the data you get from the user is the data you’re looking for, and it’s in the correct format before persisting them in the database. So, if a user tries to log in with an invalid email address, the app will show the user an error message and will not let the user sign in.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "celebrate": "^15.0.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
